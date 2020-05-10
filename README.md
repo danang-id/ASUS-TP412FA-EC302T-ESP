@@ -33,7 +33,7 @@ This repository contains files and folder inside the EFI System Partition (ESP) 
 - **Touchscreen**: Unknown
 - **Screen Size**: 14 inches
 - **Native Display Resolution**: 1920x1080
-- **I/O**: 
+- **Input/Output (I/O)**: 
   - 1 x USB 3.1 Gen 1 (Type C)
   - 1 x USB 3.0 (Type A)
   - 2 x USB 2.0 (Type A)
@@ -103,4 +103,4 @@ TBD
 - **Danang Galuh Tegar Prasetyo** - [danang-id](https://github.com/danang-id)
 
 ## License
-This project is licensed under the BSD 3-Clause license - see the [LICENSE](LICENSE.md) file for details.
+This project is licensed under the BSD 3-Clause license - see the [LICENSE.md](LICENSE.md) file for details.
