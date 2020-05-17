@@ -2,7 +2,6 @@
 
 This repository contains files and folder inside the EFI System Partition (ESP) on ASUS TP412FA-EC302T notebook. This ESP contains some bootloaders and UEFI tools to boot to the operating systems, which are mainly macOS and Windows.
 
-
 ## List of Contents
 * [ASUS TP412FA-EC302T EFI System Partition](#asus-tp412fa-ec302t-efi-system-partition)
   * [List of Contents](#list-of-contents)
@@ -27,10 +26,10 @@ This repository contains files and folder inside the EFI System Partition (ESP) 
 - **Discrette Graphic**: None
 - **Memory**: 1 x 4 GB DDR4 2400MHz SDRAM (on-board)
 - **Storage**: 1 x 512GB PCIe® Gen3 x2 SSD M.2
-- **Audio**: Unknown
-- **Wi-Fi**: Unknown
-- **Touchpad**: Unknown
-- **Touchscreen**: Unknown
+- **Audio**: Realtek ALC256
+- **Wi-Fi**: Intel AC9560
+- **Touchpad**: ELAN1300 I2C Interface
+- **Touchscreen**: ELAN2097 I2C Interface
 - **Screen Size**: 14 inches
 - **Native Display Resolution**: 1920x1080
 - **Input/Output (I/O)**: 
@@ -44,7 +43,7 @@ This repository contains files and folder inside the EFI System Partition (ESP) 
   - 1 x Combo audio jack
   - 1 x Volume up/down
 - **Battery**: 3 cells polymer battery, 42 Watthours
-- **BIOS Version**: Unknown
+- **BIOS Version**: TP412FA.305
 
 ## Bootloader Information
 This ESP contains these bootloaders.
@@ -67,7 +66,7 @@ These are the UEFI drivers used by OpenCore.
 This ESP contains bootloader configured to run the following macOS, including what are works and what are not works.
 
 ### macOS Version
-- **OS Version**: TBD
+- **OS Version**: 10.14.6
 - **Installer**: N/A
 
 ### Works on macOS
